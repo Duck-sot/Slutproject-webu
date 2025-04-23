@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-auto-rows: minmax(80px, auto);
+
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main side"
+    "stext side"
+    "footer footer"
+    ;
+}
+
+header{
+    grid-area: header;
+    background-color: crimson;
+}
+nav{
+    grid-area: nav;
+    background-color: aquamarine;
+}
+main{
+    grid-area: main;
+    background-color: violet;
+}
+side{
+    grid-area: side;
+    background-color: dodgerblue;
+}
+.stext{
+    grid-area: stext;
+    background-color: salmon;
+}
+footer{
+    grid-area: footer;
+    background-color: blueviolet;
+}
+@media only screen and (max-width:810px){
+    body{
+        background-color: violet;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+}
