@@ -1,7 +1,9 @@
+@import "navbar.css";
+
 .container{
     display: grid;
     grid-template-columns: 4fr 2fr;
-    grid-auto-rows: minmax(80px, auto);
+    grid-auto-rows: minmax(25px, auto);
 
     grid-template-areas: 
     "header header"
@@ -18,7 +20,7 @@ header{
 }
 nav{
     grid-area: nav;
-    background-color: aquamarine;
+    background-color: black;
 }
 main{
     grid-area: main;
@@ -42,5 +44,22 @@ footer{
         padding: 0px;
         margin: 0px;
     }
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(80px, auto);
     
+        grid-template-areas: 
+        "header "
+        "nav "
+        "main"
+        "side"
+        "stext"
+        "footer"
+        ;
+    }
+}
+
+header h1{
+    text-align: center;
 }

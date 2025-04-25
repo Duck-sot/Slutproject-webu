@@ -12,13 +12,30 @@
             <H1>Header</H1>
         </header>
         <nav class="nav" role="navigation">
-        
-
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Carecter Sheet</a></li>
+                <li><a href="">Backstory</a></li>
+                <li><a href="">Silly Funny</a></li>
+            </ul>
         </nav>
-        <main class="mtext">die</main>
+        <main class="mtext">die
+            <h2>DnD</h2>
+            <p>Is grate game wher you can </p>
+        </main>
         <side>wp</side>
         <div class="stext">gg</div>
         <footer>abc</footer>
     </div>
+    <script>
+       
+       // text = JSON.stringify(data)
+        //localStorage.setItem("character", text)
+
+        let data = localStorage.getItem("character");
+       let a = JSON.parse(data)
+       alert(a.name)
+       alert(a.health)
+    </script>
 </body>
 </html>
