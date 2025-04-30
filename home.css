@@ -1,4 +1,5 @@
 @import "navbar.css";
+@import "colors.css";
 
 .container{
     display: grid;
@@ -16,27 +17,27 @@
 
 header{
     grid-area: header;
-    background-color: crimson;
+    background-color: var(--sColor);
 }
 nav{
     grid-area: nav;
-    background-color: black;
+    background-color: var(--sColor);
 }
 main{
     grid-area: main;
-    background-color: violet;
+    background-color: var(--bColor);
 }
 side{
     grid-area: side;
-    background-color: dodgerblue;
+    background-color: var(--bColor);
 }
 .stext{
     grid-area: stext;
-    background-color: salmon;
+    background-color: var(--bColor);
 }
 footer{
     grid-area: footer;
-    background-color: blueviolet;
+    background-color: var(--sColor);
 }
 @media only screen and (max-width:810px){
     body{
@@ -62,4 +63,7 @@ footer{
 
 header h1{
     text-align: center;
+}
+.nav a{
+    color: var(--inText);
 }
