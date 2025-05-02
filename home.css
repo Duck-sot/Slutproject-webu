@@ -1,6 +1,10 @@
 @import "navbar.css";
 @import "colors.css";
 
+body{
+    color: var(--mText);
+}
+
 .container{
     display: grid;
     grid-template-columns: 4fr 2fr;
