@@ -1,8 +1,16 @@
 @import "navbar.css";
-@import "colors.css";
+
+:root{
+    --bColor :  #F1E9DB;
+    --sColor :  #7C8483;
+    --inText :  #912F56;
+    --mText :   #000;
+}
 
 body{
     color: var(--mText);
+    padding: 0px;
+    margin: 0px;
 }
 
 .container{
