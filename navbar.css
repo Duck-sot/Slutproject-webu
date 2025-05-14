@@ -13,3 +13,6 @@
 .nav li{
     float: left;
 }
+#day{
+    display: right;
+}
