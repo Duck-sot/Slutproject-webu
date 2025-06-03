@@ -70,18 +70,3 @@ header h1{
 .nav a{
     color: var(--inText);
 }
-
-.box{
-    display: flex;
-    justify-content: center;
-    border: 5px solid var(--inText);
-    height: 100vw;
-    background-image: url(exsanguinated-7-piece-iconic-vampire-themed-dice-set-993090_4e99b28d-148a-465e-9963-9b8910916e0b.webp);
-    color: var(--inText);
-    background-size: cover;
-    font-size: 25px;
-}
-button{
-    height: 30px;
-    margin:  30px;
-}

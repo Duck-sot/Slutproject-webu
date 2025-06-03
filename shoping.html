@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="shooping.css">
+    <script src="shoplist.js" defer></script>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <H1>shoping list</H1>
+        </header>
+        <nav class="nav" role="navigation">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="playerCar.html">dice</a></li>
+                <li><a href="shoping.html">shoping</a></li>
+                <li><a href="sillyFunny.html">Silly Funny</a></li>
+            </ul>
+            <button id="day" onclick="ThemeB()">Day and Night</button>
+        </nav>
+        <main>
+            <fieldset>
+                <legend>Enter item</legend>
+                <input id="inKey" type="text" placeholder="name">
+                <input type="text" id="inValue" placeholder="Kost/Description">
+                <button id="insertB">Add to list</button>
+            </fieldset>
+            <br> 
+            <fieldset>
+                <legend>the list</legend>
+                <div id="locOut"></div>
+            </fieldset>
+        </main>
+        <footer></footer>
+    </div>

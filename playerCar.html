@@ -5,46 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" href="pcCosm.css">
+    <script src="carecter.js" defer></script>
     
 </head>
 <body>
     <div class="container">
         <header>
-            <H1>Header</H1>
+            <H1>Dice !!!!</H1>
         </header>
         <nav class="nav" role="navigation">
             <ul>
                 <li><a href="home.html">Home</a></li>
-                <li><a href="playerCar.html">Carecter Sheet</a></li>
-                <li><a href="">Backstory</a></li>
-                <li><a href="">Silly Funny</a></li>
+                <li><a href="playerCar.html">Dice</a></li>
+                <li><a href="shoping.html">shoping</a></li>
+                <li><a href="sillyFunny.html">Silly Funny</a></li>
             </ul>
             <button id="day" onclick="ThemeB()">Day and Night</button>
         </nav>
-        <div id="cInfo"></div>
         <main>
-            <div class="boxes">
-                <h3 class="statN">str</h3>
+            <h1>Dice!!!!</h1>
+            <div class="box">
+                <P id="diceNum">0</P>
+                <br>
             </div>
-            <div class="boxes">
-                <h3 class="statN">dex</h3>
-            </div>
-            <div class="boxes">
-                <h3 class="statN">con</h3>
-            </div>
-            <div class="boxes">
-                <h3 class="statN">int</h3>
-            </div>
-            <div class="boxes">
-                <h3 class="statN">wis</h3>
-            </div>
-            <div class="boxes">
-                <h3 class="statN">cha</h3>
-            </div>
+            <button id="d100" onclick="RollH()">D100</button>
+            <br>
+            <button id="d20" onclick="RollTwenty()">D20</button>
+            <br>
+            <button id="d12" onclick="RollTw()">D12</button>
+            <br>
+            <button id="d10" onclick="RollTe()">D10</button>
+            <br>
+            <button id="d8" onclick="RollE()">D8</button>
+            <br>
+            <button id="d6" onclick="RollS()">D6</button>
+            <br>
+            <button id="d4" onclick="Rollf()">D4</button>
+            <br>
         </main>
-        <div id="proficencis"></div>
-        <div id="Weapones"></div>
-        <div id="inventory"></div>
+        <footer></footer>
     </div>
 </body>
 </html>
